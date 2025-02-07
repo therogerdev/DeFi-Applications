@@ -1,8 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
-const SEPOLIA_API_URL = process.env.API_URL;
-const SEPOLIA_PRIVATE_KEY = process.env.API_URL;
+const SEPOLIA_API_URL = import.meta.env.API_URL;
+const SEPOLIA_PRIVATE_KEY = import.meta.env.PRIVATE_KEY;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
