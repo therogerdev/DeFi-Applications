@@ -1,7 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
-require('dotenv').config();
+require("dotenv").config();
 
-
+const SEPOLIA_API_URL = process.env.API_URL;
+const SEPOLIA_PRIVATE_KEY = process.env.API_URL;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -10,6 +11,12 @@ module.exports = {
     sources: "./src/backend/contracts",
     artifacts: "./src/backend/artifacts",
     cache: "./src/backend/cache",
-    tests: "./src/backend/test"
+    tests: "./src/backend/test",
+  },
+  networks: {
+    sepolia: {
+      url: SEPOLIA_API_URL,
+      accounts: [SEPOLIA_PRIVATE_KEY],
+    },
   },
 };
