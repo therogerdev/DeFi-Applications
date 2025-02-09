@@ -17,10 +17,10 @@ async function main() {
   console.log("Deployer Address: ", deployer.address);
 
   const tokenContractFactory = await ethers.getContractFactory(
-    "RaphBigDick"
+    "RogerThat"
   );
   const token = await tokenContractFactory.deploy();
-  console.log("Raph Big Dick Contract Address: ", token.runner.address);
+  console.log("Roger That Contract Address: ", token.runner.address);
 
   const balance = await deployer.provider.getBalance(deployer.address); // ✅ Use provider.getBalance
   console.log("Deployer ETH balance: ", balance.toString());

@@ -8,8 +8,8 @@ import {ERC20Permit} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20P
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
-contract RaphBigDick is ERC20, ERC20Burnable, ERC20Permit {
-    constructor() ERC20("Raph Big Dick", "RAPH") ERC20Permit("Raph Big Dick") {
+contract RogerThat is ERC20, ERC20Burnable, ERC20Permit {
+    constructor() ERC20("Roger That Token", "RGT") ERC20Permit("Roger That") {
         _mint(msg.sender, 1e24);
     }
 }

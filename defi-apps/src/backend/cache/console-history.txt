@@ -1,0 +1,10 @@
+clear
+contract.address
+const contract = await ethers.getContractAt("RogerThat", "0xb8792484b4A3CA882d78322F370b92F02786305e")
+contract.address
+const contract = await ethers.getContractAt("RogerThat', "0xb8792484b4A3CA882d78322F370b92F02786305e")
+const contract = await ethers.getContractAt("SimpleDeFiToken", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+undefined
+const contract = await ethers.getContractAt("SimpleDeFiToken", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+clear
+pwd

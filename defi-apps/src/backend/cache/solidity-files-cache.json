@@ -756,10 +756,10 @@
         "StorageSlot"
       ]
     },
-    "/Users/rogeriomenezes/Documents/apps/DeFi Applications/defi-apps/src/backend/contracts/RaphBigDick.sol": {
-      "lastModificationDate": 1738915355392,
-      "contentHash": "f449675e9ede7dfa038a2983cb644d4d",
-      "sourceName": "src/backend/contracts/RaphBigDick.sol",
+    "/Users/rogeriomenezes/Documents/apps/DeFi Applications/defi-apps/src/backend/contracts/RogerThat.sol": {
+      "lastModificationDate": 1739080276065,
+      "contentHash": "fc291233313aec6af5354220ca42689f",
+      "sourceName": "src/backend/contracts/RogerThat.sol",
       "solcConfig": {
         "version": "0.8.28",
         "settings": {
@@ -794,7 +794,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "RaphBigDick"
+        "RogerThat"
       ]
     }
   }
